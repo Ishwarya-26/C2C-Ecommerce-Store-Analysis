@@ -36,3 +36,8 @@ The dataset, downloaded from Kaggle, contains  sales, product listings, transact
 Excel: Utilized for data preparation tasks including cleaning, formatting and report and power query for combine csv file as one file
 
 MySQL: Utilized for importing cleaned data and executing SQL queries to extract  insights.
+
+## Conclusion
+
+This analysis provided valuable insights into the user base of the e-commerce platform, highlighting key demographics, engagement patterns and buying/selling behavior. The findings can provide strategies for targeted marketing, product development and user experience improvements.
+
