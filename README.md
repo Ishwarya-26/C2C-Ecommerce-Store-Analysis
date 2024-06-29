@@ -3,7 +3,7 @@
 
 ## Overview
 
-This project focuses on analyzing data from a successful online C2C (consumer-to-consumer) fashion store with over 9 million registered users. The store was first launched in Europe around 2009 and later expanded worldwide. C2C,a store, where users act as both suppliers (by uploading their products) and customers (by purchasing other users selling products).
+This project focuses on analyzing data from a successful online C2C (consumer-to-consumer) fashion store. The store was first launched in Europe around 2009 and later expanded worldwide. C2C,a store, where users act as both suppliers (by uploading their products) and customers (by purchasing other users selling products).
 
 ## Dataset Overview
 The dataset, downloaded from Kaggle, contains  sales, product listings, transactions, and engagement metrics within the e-commerce fashion store.
