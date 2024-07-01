@@ -24,12 +24,8 @@ LIMIT 10;
 -- 3.Which countries have users who have made transactions on the ecommerce platform and also have the Android app installed?
 SELECT u.Country, COUNT(*) AS NumUsers
 FROM users_data u
-JOIN (
-    SELECT User_ID
-    FROM users_data
-    WHERE Product_sold >= 1 OR Product_bought >= 1
-) t ON u.User_ID = t.User_ID
-WHERE u.Has_AndroidApp = 'True'
+WHERE (u.Product_sold >= 1 OR u.Product_bought >= 1)
+AND u.Has_AndroidApp = 'True'
 GROUP BY u.Country;
 
 
@@ -46,14 +42,9 @@ SELECT Country, InactiveUsersCount, InactiveUsersWithProfilePicCount
 FROM InactiveUsers;
 
 -- 5.What is the average number of products bought by male and female users for each country?
-SELECT u.Country, u.Gender,
-       AVG(u.Product_bought) AS AvgProductsBought
+SELECT u.Country, u.Gender,AVG(u.Product_bought) AS AvgProductsBought
 FROM users_data u
-JOIN (
-    SELECT User_ID
-    FROM users_data
-    WHERE Product_bought >= 1
-) t ON u.User_ID = t.User_ID
+WHERE u.Product_bought >= 1
 GROUP BY u.Country, u.Gender;
 
 
