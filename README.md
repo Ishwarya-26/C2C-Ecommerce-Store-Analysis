@@ -9,16 +9,15 @@ This project focuses on analyzing data from a successful online C2C (consumer-to
 The dataset contains sales, product listings, transactions, and engagement metrics within the e-commerce fashion store.
 
 ## Project Objectives
-1.	What are the top 10 countries with the highest number of buyers and sellers combined on the ecommerce platform?
+1. Which are the top 10 countries with the highest number of buyers and sellers combined?
 
-2.	Which countries and genders are the most engaged with the ecommerce platform in terms of liking and listing products?
-	
-3.	Which countries have users who have made transactions on the ecommerce platform and also have the Android app installed?
-	
-4.	How many users from each country have not logged in since the last 100 days, and how many of them have a profile picture?
+2. Which 10 countries have the highest average social engagement in terms of followers and follows?2
 
-5.	What is the average number of products bought by male and female users for each country?
+3. What are the top 10 countries with users who have made transactions and have the Android app installed?
 
+4. Which 10 countries have the most users who haven't logged in for at least 100 days and how many of these inactive users have profile pictures?
+
+5. What are the top 10 highest average numbers of products bought by users? Show the country, gender and average number of products for each.
 ## Insights
 
 1.France, USA, and UK lead with the highest combined number of buyers and sellers on the ecommerce platform.
