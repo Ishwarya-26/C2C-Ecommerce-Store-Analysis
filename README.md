@@ -22,14 +22,13 @@ The dataset contains sales, product listings, transactions, and engagement metri
 
 1.France, USA, and UK lead with the highest combined number of buyers and sellers on the ecommerce platform.
 
-2.Countries like France and USA are the most engaged with the ecommerce platform in terms of social followers and follows.
+2.Guam led with an average of 11 followers and 12 follows per user
 
 3.France and Italy have notable user activity with transactions and the Android app installed
 
 4.France and the USA exhibit a high number of inactive users.
 
-5.Male users in Bulgaria and Cambodia show higher average purchases.
-
+5.Male users in Cambodia showed the highest average with 39 products bought
 ## Tools and Technologies
 
 Excel: Utilized for data preparation tasks including cleaning, formatting and report and power query for combine csv file as one file
